@@ -13,10 +13,23 @@ console.log("Tipo da variável: ", typeof soma)
 
 let contador = 0
 
-while(contador < 10) {
-    console.log(contador)
-    contador++
-    //é possível colocar o código console.log(contador++)
-    //se você quiser encrementar antes, ou seja, começar a contar do 1 e não do 0
-    //é só colocar console.log(++contador)
+// while(contador < 10) {
+//     console.log(contador)
+//     contador++
+//     //é possível colocar o código console.log(contador++)
+//     //se você quiser encrementar antes, ou seja, começar a contar do 1 e não do 0
+//     //é só colocar console.log(++contador)
+// }
+
+do{
+    console.log(contador++)
 }
+while(contador < 10)
+
+
+function exemplo(){
+    for(let i =0; i<10; i++){
+        console.log(i)
+    }
+}
+exemplo() //Esse comando "chama" a função para que ela possa ser executada
