@@ -18,7 +18,7 @@ function urnaEletronica() {
         let confirmaNumeroCandidato = parseInt(prompt("Digite o número do candidato: "));
 
         if(confirmaNumeroCandidato == 1234){
-            confirmaNumeroCandidato = parseInt(parseIntnumeroCandidato);
+            numeroCandidato = confirmaNumeroCandidato;
         }
         else{
             confirmacao(confirmaNumeroCandidato);
@@ -81,9 +81,9 @@ function urnaEletronica() {
     let percentualCandidato2 = (candidato2 / numeroVotante) * 100;
     let percentualCandidato3 = (candidato3 / numeroVotante) * 100;
 
-    window.alert("Valor do percentual de votos para " + candidato1nome + " é: " + percentualCandidato1, "%. \n");
-    window.alert("Valor do percentual de votos para " + candidato2nome + " é: " + percentualCandidato2, "%. \n");
-    window.alert("Valor do percentual de votos para " + candidato3nome + " é: " + percentualCandidato3, "%. \n");
+    window.alert("Valor do percentual de votos para " + candidato1Nome + " é: " + percentualCandidato1, "%. \n");
+    window.alert("Valor do percentual de votos para " + candidato2Nome + " é: " + percentualCandidato2, "%. \n");
+    window.alert("Valor do percentual de votos para " + candidato3Nome + " é: " + percentualCandidato3, "%. \n");
 
     if (candidato1 > candidato2 && candidato1 > candidato3) {
         window.alert(candidato1nome + " ganhou a votação!");
